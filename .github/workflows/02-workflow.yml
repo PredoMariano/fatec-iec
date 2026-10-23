@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - run: echo "Olá, Fatec!"
-        name: Mensagen=m de Saudação
+        name: Mensagem de Saudação
       - uses: actions/checkout@v5
         name: Fazendo clone e checkout no meu repositório nesta máquina virtual VM Ubuntu
       - name: Zipar os arquivos do meu repositório
-        run: zip -r arquivo.zip .
+        run: zip -r arquivos.zip .
       - name: Listar os arquivos do meu repositório
         run: ls -la
