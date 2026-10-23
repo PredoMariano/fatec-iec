@@ -1,3 +1,4 @@
+name: Usando multi-triggers
 on: [pull_request, push]
 jobs:
   ci-continuous-integration:
