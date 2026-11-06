@@ -23,5 +23,5 @@ jobs:
 
       - name: Listar os arquivos do repositório
         run: |
-          ls ${{gtihub.workspace}}
+          ls ${{github.workspace}}
           echo O status do job é ${{job.status}}
