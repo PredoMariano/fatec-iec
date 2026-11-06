@@ -27,4 +27,4 @@ jobs:
           echo O status do job é ${{job.status}}
       
       - name: Variável de Repositório (Repository Variables)
-        runs: echo "A URL do KAFKA é ${{vars.KAFKA}}"
+        run: echo "A URL do KAFKA é ${{vars.KAFKA}}"
