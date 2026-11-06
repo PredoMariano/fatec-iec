@@ -25,3 +25,6 @@ jobs:
         run: |
           ls ${{github.workspace}}
           echo O status do job é ${{job.status}}
+      
+      - name: Variável de Repositório (Repository Variables)
+        runs: echo "A URL do KAFKA é ${{vars.KAFKA}}"
